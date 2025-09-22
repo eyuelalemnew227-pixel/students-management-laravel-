@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="Page-1" id="npKKtLvGasO68GiN7l6j">
-    <mxGraphModel dx="2108" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2610" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,6 +78,11 @@
         </mxCell>
         <mxCell id="kgM23EZojPfD0eIEHUEL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="7LXcyZv_eAJy9r8lfqN2-29" target="kgM23EZojPfD0eIEHUEL-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-32" value="start_date &amp;amp; end_date" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgM23EZojPfD0eIEHUEL-6">
+          <mxGeometry x="-0.3696" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7LXcyZv_eAJy9r8lfqN2-29" value="request SY by giving employment_date as a start_date and todays date as end_date" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="39" y="547" width="240" height="80" as="geometry" />
@@ -164,6 +169,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7LXcyZv_eAJy9r8lfqN2-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="617.5" y="920.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7LXcyZv_eAJy9r8lfqN2-82" value="does the employee &lt;br&gt;has previous fiscal_year &lt;br&gt;leave balance?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="548" y="747" width="139" height="120" as="geometry" />
         </mxCell>
@@ -194,8 +204,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-31" value="SY" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgM23EZojPfD0eIEHUEL-21">
+          <mxGeometry x="0.2697" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kgM23EZojPfD0eIEHUEL-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="7LXcyZv_eAJy9r8lfqN2-91" target="kgM23EZojPfD0eIEHUEL-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-14" value="PYB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgM23EZojPfD0eIEHUEL-29">
+          <mxGeometry x="-0.2741" y="3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7LXcyZv_eAJy9r8lfqN2-91" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;request SY by giving employment date as a start date and previous fiscal year end_date as end_date&lt;/span&gt;&lt;br&gt;PYSY=SY&lt;br&gt;request rate by giving PYSY&amp;nbsp;&lt;br&gt;PR = rate&lt;br&gt;previous fiscal year balance =PYB&lt;br&gt;PYB=(PYSY*PR) - used_days" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="38" y="737" width="200" height="140" as="geometry" />
@@ -207,14 +227,21 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-13" value="PYB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgM23EZojPfD0eIEHUEL-28">
+          <mxGeometry x="-0.4868" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7LXcyZv_eAJy9r8lfqN2-98" value="PYB=(12*rate)-used_day&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="301" y="933" width="195" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="7LXcyZv_eAJy9r8lfqN2-104" value="the rate must me calculated again it must be dynamic for 3 cases&lt;br&gt;if the employee is started from current FY , if it started between previous start_date and end_date&amp;nbsp;&amp;nbsp;&lt;br&gt;if it is before the previous FY start_date&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="89" y="1380" width="150" height="170" as="geometry" />
-        </mxCell>
         <mxCell id="kgM23EZojPfD0eIEHUEL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kgM23EZojPfD0eIEHUEL-2" target="7LXcyZv_eAJy9r8lfqN2-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-33" value="SY" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgM23EZojPfD0eIEHUEL-7">
+          <mxGeometry x="0.2246" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="kgM23EZojPfD0eIEHUEL-2" value="accept start_date and end_date then return service year in of days&amp;nbsp; (SY)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="39" y="398" width="240" height="80" as="geometry" />
@@ -230,6 +257,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-30" value="rate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgM23EZojPfD0eIEHUEL-22">
+          <mxGeometry x="-0.2064" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kgM23EZojPfD0eIEHUEL-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="kgM23EZojPfD0eIEHUEL-19" target="kgM23EZojPfD0eIEHUEL-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1" y="1157" as="targetPoint" />
@@ -240,10 +272,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-34" value="rate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgM23EZojPfD0eIEHUEL-31">
+          <mxGeometry x="-0.5288" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="kgM23EZojPfD0eIEHUEL-19" value="accept SY and calculate the leave rate store it in rate and return rate" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
           <mxGeometry x="479" y="398" width="199" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="__o8uyT5fn01zDI4rwV3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kgM23EZojPfD0eIEHUEL-24" target="__o8uyT5fn01zDI4rwV3-3">
+        <mxCell id="__o8uyT5fn01zDI4rwV3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kgM23EZojPfD0eIEHUEL-24" target="__o8uyT5fn01zDI4rwV3-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="139" y="1220" />
@@ -251,24 +288,188 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kgM23EZojPfD0eIEHUEL-24" value="PYB=(PYB&lt;br&gt;request SY (current fiscal year start date , today date) -&amp;gt; CYSY&lt;br&gt;request rate (CYSY) -&amp;gt; CR&lt;br&gt;CYB=(CYSY*CR) - used _days&lt;br&gt;TLB= CYB + PYB" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="38" y="1037" width="201" height="98" as="geometry" />
+        <mxCell id="tKz4JxxieQniGMC5VroP-15" value="TLB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="__o8uyT5fn01zDI4rwV3-5">
+          <mxGeometry x="-0.6939" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="kgM23EZojPfD0eIEHUEL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.004;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kgM23EZojPfD0eIEHUEL-24" target="kgM23EZojPfD0eIEHUEL-19" edge="1">
+        <mxCell id="tKz4JxxieQniGMC5VroP-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kgM23EZojPfD0eIEHUEL-24" target="kgM23EZojPfD0eIEHUEL-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="18" y="1062" />
-              <mxPoint x="18" y="510" />
-              <mxPoint x="430" y="510" />
-              <mxPoint x="430" y="427" />
+              <mxPoint x="-60" y="1062" />
+              <mxPoint x="-60" y="438" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="__o8uyT5fn01zDI4rwV3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="__o8uyT5fn01zDI4rwV3-3" target="7LXcyZv_eAJy9r8lfqN2-29">
+        <mxCell id="tKz4JxxieQniGMC5VroP-39" value="CYstart date" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-37">
+          <mxGeometry x="-0.5631" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-40" value="today date" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-37">
+          <mxGeometry x="-0.4595" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kgM23EZojPfD0eIEHUEL-24" value="PYB=PYB&lt;br&gt;request SY (current fiscal year start date , today date) -&amp;gt; CYSY&lt;br&gt;request rate (CYSY) -&amp;gt; CR&lt;br&gt;CYB=(CYSY*CR) - used _days&lt;br&gt;TLB= CYB + PYB" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="38" y="1037" width="201" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="kgM23EZojPfD0eIEHUEL-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.004;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="38" y="1088" />
+              <mxPoint x="18" y="1088" />
+              <mxPoint x="18" y="510" />
+              <mxPoint x="430" y="510" />
+              <mxPoint x="430" y="435" />
+            </Array>
+            <mxPoint x="38" y="1094" as="sourcePoint" />
+            <mxPoint x="479.7960000000003" y="435.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-35" value="CYSY" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kgM23EZojPfD0eIEHUEL-34">
+          <mxGeometry x="-0.7604" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="__o8uyT5fn01zDI4rwV3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="__o8uyT5fn01zDI4rwV3-3" target="7LXcyZv_eAJy9r8lfqN2-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="__o8uyT5fn01zDI4rwV3-3" value="request&amp;nbsp;&lt;br&gt;previous fiscal year leave balance&lt;br&gt;&amp;nbsp;current fiscal year leave balance&lt;br&gt;by giving the employee_id&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="tKz4JxxieQniGMC5VroP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="__o8uyT5fn01zDI4rwV3-3" target="tKz4JxxieQniGMC5VroP-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-360" y="587" />
+              <mxPoint x="-360" y="1270" />
+              <mxPoint x="640" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-25" value="PYB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-24">
+          <mxGeometry x="-0.4808" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-26" value="CYB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-24">
+          <mxGeometry x="-0.4282" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-27" value="TLB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-24">
+          <mxGeometry x="-0.3708" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-51" value="PYB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-24">
+          <mxGeometry x="0.9596" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="__o8uyT5fn01zDI4rwV3-3" value="request&amp;nbsp;&lt;br&gt;previous fiscal year leave balance&lt;br&gt;&amp;nbsp;current fiscal year leave balance&lt;br&gt;by giving the employee_id&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-310" y="549" width="200" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tKz4JxxieQniGMC5VroP-3" target="tKz4JxxieQniGMC5VroP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-3" value="start requesting for leave" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1320" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKz4JxxieQniGMC5VroP-4" target="tKz4JxxieQniGMC5VroP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-4" value="accept the requested leave start day and end day&amp;nbsp;&lt;br&gt;calculate the requested days&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3" y="1320" width="203" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tKz4JxxieQniGMC5VroP-6" target="tKz4JxxieQniGMC5VroP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-18" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-17">
+          <mxGeometry x="-0.1875" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKz4JxxieQniGMC5VroP-6" target="tKz4JxxieQniGMC5VroP-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="1560" />
+              <mxPoint x="-185" y="1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-49" value="There is no enough balance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-48">
+          <mxGeometry x="-0.0342" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-6" value="is the requested day =&amp;lt;&amp;nbsp; TLB" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1320" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tKz4JxxieQniGMC5VroP-10" target="kgM23EZojPfD0eIEHUEL-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="980" />
+              <mxPoint x="88" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-12" value="PYB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-11">
+          <mxGeometry x="-0.4456" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-10" value="PYB=0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="548" y="917" width="172" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tKz4JxxieQniGMC5VroP-16" target="tKz4JxxieQniGMC5VroP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-21" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-20">
+          <mxGeometry x="-0.25" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tKz4JxxieQniGMC5VroP-16" target="tKz4JxxieQniGMC5VroP-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-16" value="is the requested day &amp;lt; =&amp;nbsp; PYB&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1320" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-19" value="PY_used_days = requested day + PY_used_days&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1320" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tKz4JxxieQniGMC5VroP-22" target="tKz4JxxieQniGMC5VroP-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-22" value="PY_used_days= PY_used_days+ PYB&amp;nbsp;&lt;br&gt;remain_request = requested day - PYB&amp;nbsp;&lt;br&gt;CY_used_days = CY_used_days&amp;nbsp; + remain_request&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1520" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-28" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1740" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.109;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kgM23EZojPfD0eIEHUEL-2" target="kgM23EZojPfD0eIEHUEL-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="159" y="378" />
+              <mxPoint x="-40" y="378" />
+              <mxPoint x="-40" y="910" />
+              <mxPoint x="60" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-41" value="CYSY" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-38">
+          <mxGeometry x="0.77" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tKz4JxxieQniGMC5VroP-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1270" as="sourcePoint" />
+            <mxPoint x="430" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tKz4JxxieQniGMC5VroP-50" value="TLB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tKz4JxxieQniGMC5VroP-46">
+          <mxGeometry x="0.11" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
